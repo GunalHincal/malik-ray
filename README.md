@@ -1,14 +1,14 @@
 # MALIK RAY — Official Artist Website
 
-Official artist website for **MALIK RAY**, signed to **Velora Records**.  
+Official artist website for **MALIK RAY**, signed to **Velora Records**.
 Built as a static site for Spotify for Artists label verification and public artist presence.
 
 ---
 
 ## Live Site
 
-> Deploy to Vercel: push to GitHub → import project → live in ~1 minute  
-> Suggested URL: `malik-ray.vercel.app`
+> Deploy to Vercel: push to GitHub → import project → live in ~1 minute
+> Suggested URL: `malikray.vercel.app`
 
 ---
 
@@ -54,23 +54,23 @@ malik-ray/
 
 All release data lives in `data/content.json`. To add a Spotify/Apple Music/YouTube Music link, fill in the relevant field and save — the site renders buttons automatically when a URL is present.
 
-| Title | Type | UPC | ISRC | Status |
-|---|---|---|---|---|
-| Velvet Hours | Album | — | — | Coming Soon (Apr 30, 2026) |
-| Shade Money | Single | 8680948182925 | TRAKF1636353 | Released |
-| Gold Don't Sleep | Single | 8680948206058 | TRAKF1640041 | Released |
-| Black Glass Heart | Single | 8680948206065 | TRAKF1640042 | Released |
+| Title             | Type   | UPC           | ISRC         | Status                     |
+| ----------------- | ------ | ------------- | ------------ | -------------------------- |
+| Velvet Hours      | Album  | —            | —           | Coming Soon (Apr 30, 2026) |
+| Shade Money       | Single | 8680948182925 | TRAKF1636353 | Released                   |
+| Gold Don't Sleep  | Single | 8680948206058 | TRAKF1640041 | Released                   |
+| Black Glass Heart | Single | 8680948206065 | TRAKF1640042 | Released                   |
 
 ---
 
 ## Label Info
 
-| Field | Value |
-|---|---|
-| Label | Velora Records |
-| Contact | hincalgunal@gmail.com |
-| Distributor | Mitas Müzik Public, a division of Mitas Müzik |
-| Label Website | velorarecords.vercel.app |
+| Field         | Value                                           |
+| ------------- | ----------------------------------------------- |
+| Label         | Velora Records                                  |
+| Contact       | hincalgunal@gmail.com                           |
+| Distributor   | Mitas Müzik Public, a division of Mitas Müzik |
+| Label Website | velorarecords.vercel.app                        |
 
 ---
 
@@ -105,11 +105,11 @@ No `vercel.json` or config required for a static site.
 
 Inherits the Velora Records design language:
 
-| Token | Value |
-|---|---|
-| Background | `#0a0a0a` |
-| Gold accent | `#c8a96e` |
+| Token        | Value            |
+| ------------ | ---------------- |
+| Background   | `#0a0a0a`      |
+| Gold accent  | `#c8a96e`      |
 | Heading font | Playfair Display |
-| Body font | Inter |
+| Body font    | Inter            |
 
 Light mode is available via the toggle in the top nav.
