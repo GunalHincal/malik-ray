@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MALIK RAY | Official Artist Site</title>
+  <meta name="description" content="MALIK RAY | Official artist page. Hip-Hop / Rap artist signed to Velora Records." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="MALIK RAY | Official Artist Site" />
+  <meta property="og:description" content="Hip-Hop / Rap artist signed to Velora Records. Listen to Shade Money, Gold Don't Sleep, Black Glass Heart, and Velvet Hours." />
+  <meta property="og:image" content="assets/images/malik-ray.jpg" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#home" class="nav__logo">MALIK RAY</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#music" class="nav__link">Music</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#label" class="nav__link">Label</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <svg class="theme-toggle__icon theme-toggle__icon--light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="theme-toggle__icon theme-toggle__icon--dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Velora Records Artist</p>
+      <h1 class="hero__title">MALIK RAY</h1>
+      <p class="hero__subtitle">Hip-Hop / Rap</p>
+      <div class="hero__ctas">
+        <a href="#releases" class="btn btn--gold">Listen Now</a>
+        <a href="#about" class="btn btn--ghost">About</a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text fade-in">
+          <p class="section__label">Artist</p>
+          <h2 class="section__title">About</h2>
+          <p class="about__bio">
+            MALIK RAY is an independent hip-hop and rap artist signed to Velora Records.
+          </p>
+          <p class="about__bio">
+            Drawing from raw personal experience and cinematic sound design, his music blends
+            emotional depth with polished contemporary production. Each release is crafted with
+            intention, built to resonate, built to last.
+          </p>
+          <p class="about__bio">
+            Released under Velora Records, MALIK RAY represents the label's commitment to
+            distinctive artist projects and high-quality sound.
+          </p>
+          <div class="about__meta">
+            <span class="about__meta-label">Label</span>
+            <a href="https://velorarecords.vercel.app" target="_blank" rel="noopener" class="about__meta-value about__meta-value--link">Velora Records ↗</a>
+          </div>
+        </div>
+        <div class="about__photo-wrap fade-in">
+          <img src="assets/images/malik-ray.jpg" alt="MALIK RAY" class="about__photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELEASES -->
+  <section class="releases section" id="releases">
+    <a id="music"></a>
+    <div class="container">
+      <p class="section__label fade-in">Discography</p>
+      <h2 class="section__title fade-in">Music</h2>
+      <div id="releasesGrid" class="releases__grid"></div>
+    </div>
+  </section>
+
+  <!-- LABEL -->
+  <section class="label-section section" id="label">
+    <div class="container">
+      <p class="section__label fade-in">Label Information</p>
+      <h2 class="section__title fade-in">Velora Records</h2>
+      <div class="label__inner fade-in">
+        <p class="label__desc">
+          MALIK RAY is an artist signed to and released under Velora Records,
+          an independent music label. All releases are distributed through Mitas Müzik Public,
+          a division of Mitas Müzik.
+        </p>
+        <div class="verification__table">
+          <div class="verification__row">
+            <span class="verification__key">Label Name</span>
+            <span class="verification__val">Velora Records</span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">Contact Email</span>
+            <span class="verification__val">
+              <a href="mailto:hincalgunal@gmail.com" class="link--gold">hincalgunal@gmail.com</a>
+            </span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">Artist</span>
+            <span class="verification__val">MALIK RAY</span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">Distributor</span>
+            <span class="verification__val">Mitas Müzik Public, a division of Mitas Müzik</span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">Release</span>
+            <span class="verification__val">Shade Money</span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">UPC</span>
+            <span class="verification__val">8680948182925</span>
+          </div>
+          <div class="verification__row">
+            <span class="verification__key">ISRC</span>
+            <span class="verification__val">TRAKF1636353</span>
+          </div>
+        </div>
+      </div>
+      <div class="label__logo-center fade-in">
+        <img src="assets/brand/logo.png" alt="Velora Records" class="label__standalone-logo" />
+        <a href="https://velorarecords.vercel.app" target="_blank" rel="noopener" class="label__cta-link">
+          Visit Official Label Website
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><path d="M7 17L17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner fade-in">
+        <h2 class="contact__title">Get in Touch</h2>
+        <p class="contact__desc">For bookings, features, press, or general inquiries, reach out directly.</p>
+        <a href="mailto:hincalgunal@gmail.com" class="contact__email">hincalgunal@gmail.com</a>
+        <p class="contact__note">This email is used for artist and label communications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <p class="footer__logo">MALIK RAY</p>
+          <p class="footer__sublabel">Velora Records Artist</p>
+          <a href="mailto:hincalgunal@gmail.com" class="footer__email">hincalgunal@gmail.com</a>
+        </div>
+        <nav class="footer__nav">
+          <a href="#music" class="footer__nav-link">Music</a>
+          <a href="#about" class="footer__nav-link">About</a>
+          <a href="#label" class="footer__nav-link">Label</a>
+          <a href="#contact" class="footer__nav-link">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__bar">
+        <p>© <span id="year"></span> MALIK RAY. Released under Velora Records. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

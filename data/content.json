@@ -1,0 +1,80 @@
+{
+  "artist": {
+    "name": "MALIK RAY",
+    "genre": "Hip-Hop / R&B",
+    "label": "Velora Records",
+    "labelUrl": "https://velorarecords.vercel.app",
+    "email": "hincalgunal@gmail.com",
+    "distributor": "Mitas Müzik Public, a division of Mitas Müzik",
+    "photo": "assets/images/malik-ray.jpg",
+    "bio": "MALIK RAY is an independent hip-hop and R&B artist signed to Velora Records. Drawing from raw personal experience and cinematic sound design, his music blends emotional depth with polished contemporary production.",
+    "spotifyUrl": "https://open.spotify.com/intl-tr/artist/6HkVZPxiFNI2qPnWR0LgMK"
+  },
+  "releases": [
+    {
+      "id": "velvet-hours",
+      "title": "Velvet Hours",
+      "artist": "MALIK RAY",
+      "type": "Album",
+      "year": "2026",
+      "releaseDate": "2026-04-30",
+      "comingSoon": true,
+      "cover": "assets/images/velvet-hours.jpg",
+      "coverPlaceholder": false,
+      "upc": "",
+      "isrc": "",
+      "albumSpotifyUrl": "",
+      "trackSpotifyUrl": "",
+      "appleMusicUrl": "",
+      "youtubeMusicUrl": ""
+    },
+    {
+      "id": "shade-money",
+      "title": "Shade Money",
+      "artist": "MALIK RAY",
+      "type": "Single",
+      "year": "2026",
+      "comingSoon": false,
+      "cover": "assets/images/shade-money.jpg",
+      "coverPlaceholder": false,
+      "upc": "8680948182925",
+      "isrc": "TRAKF1636353",
+      "albumSpotifyUrl": "https://open.spotify.com/intl-tr/album/4PlfkcNOx2YMEwMwMYvRNg",
+      "trackSpotifyUrl": "https://open.spotify.com/intl-tr/track/1dENyQWjIvS4estqHSkgc1",
+      "appleMusicUrl": "https://music.apple.com/us/album/shade-money-single/1884784523",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=FxI7--IpFOw"
+    },
+    {
+      "id": "gold-dont-sleep",
+      "title": "Gold Don't Sleep",
+      "artist": "MALIK RAY",
+      "type": "Single",
+      "year": "2026",
+      "comingSoon": false,
+      "cover": "assets/images/gold-dont-sleep.jpg",
+      "coverPlaceholder": false,
+      "upc": "8680948206058",
+      "isrc": "TRAKF1640041",
+      "albumSpotifyUrl": "https://open.spotify.com/intl-tr/album/7CawuaJbW5Ss3OGWNZ9tEf",
+      "trackSpotifyUrl": "https://open.spotify.com/intl-tr/track/5k0O4vCY5BoYpBJfaVCUWi",
+      "appleMusicUrl": "https://music.apple.com/tr/album/gold-dont-sleep-single/1890280874",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=vfYsq-G0xm8"
+    },
+    {
+      "id": "black-glass-heart",
+      "title": "Black Glass Heart",
+      "artist": "MALIK RAY",
+      "type": "Single",
+      "year": "2026",
+      "comingSoon": false,
+      "cover": "assets/images/black-glass-heart.jpg",
+      "coverPlaceholder": false,
+      "upc": "8680948206065",
+      "isrc": "TRAKF1640042",
+      "albumSpotifyUrl": "https://open.spotify.com/intl-tr/album/0ZGTtSmqlSKSi0sKkG2qH0",
+      "trackSpotifyUrl": "https://open.spotify.com/intl-tr/track/61kWJAWSPrTK0e2YkjkrwV",
+      "appleMusicUrl": "https://music.apple.com/tr/album/black-glass-heart-single/1890278927",
+      "youtubeMusicUrl": "https://music.youtube.com/watch?v=Ky3tfKj-5dQ"
+    }
+  ]
+}
